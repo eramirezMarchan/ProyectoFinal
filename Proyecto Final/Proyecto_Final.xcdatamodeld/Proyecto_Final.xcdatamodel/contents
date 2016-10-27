@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="Punto" syncable="YES">
+        <attribute name="latitud" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="pertenece" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Rutas" inverseName="tiene" inverseEntity="Rutas" syncable="YES"/>
+    </entity>
+    <entity name="Rutas" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tiene" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Punto" inverseName="pertenece" inverseEntity="Punto" syncable="YES"/>
+    </entity>
+    <fetchRequest name="petRuta" entity="Rutas" predicateString="nombre == $nombre"/>
+    <fetchRequest name="petRutas" entity="Rutas"/>
+    <elements>
+        <element name="Punto" positionX="-54" positionY="0" width="128" height="90"/>
+        <element name="Rutas" positionX="-63" positionY="-18" width="128" height="75"/>
+    </elements>
 </model>

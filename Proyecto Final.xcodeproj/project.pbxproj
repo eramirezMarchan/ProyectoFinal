@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		607F50011DBB926A00736D8B /* AcercaDeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607F50001DBB926A00736D8B /* AcercaDeViewController.swift */; };
+		607F50031DBB929700736D8B /* EventosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607F50021DBB929700736D8B /* EventosViewController.swift */; };
 		608664021DA9FF8C00B05D90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608664011DA9FF8C00B05D90 /* AppDelegate.swift */; };
 		608664041DA9FF8C00B05D90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608664031DA9FF8C00B05D90 /* ViewController.swift */; };
 		608664071DA9FF8C00B05D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608664051DA9FF8C00B05D90 /* Main.storyboard */; };
@@ -25,6 +27,21 @@
 		60A669561DAB5D9700AB0E80 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A669551DAB5D9700AB0E80 /* NotificationController.swift */; };
 		60A669581DAB5D9700AB0E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60A669571DAB5D9700AB0E80 /* Assets.xcassets */; };
 		60A6695C1DAB5D9700AB0E80 /* rutaWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 60A6693E1DAB5D9700AB0E80 /* rutaWatch.app */; };
+		60B4BC4D1DC1D16F00E04B89 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BC4C1DC1D16F00E04B89 /* TableViewController.swift */; };
+		60B4BC541DC1E57000E04B89 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BC4F1DC1E57000E04B89 /* ARAnnotation.swift */; };
+		60B4BC551DC1E57000E04B89 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BC501DC1E57000E04B89 /* ARAnnotationView.swift */; };
+		60B4BC561DC1E57000E04B89 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BC511DC1E57000E04B89 /* ARConfiguration.swift */; };
+		60B4BC571DC1E57000E04B89 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BC521DC1E57000E04B89 /* ARTrackingManager.swift */; };
+		60B4BC581DC1E57000E04B89 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BC531DC1E57000E04B89 /* ARViewController.swift */; };
+		60B4BC5B1DC1E58800E04B89 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BC5A1DC1E58800E04B89 /* DebugMapViewController.swift */; };
+		60B4BC611DC1E5A800E04B89 /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B4BC5D1DC1E5A800E04B89 /* DebugMapViewController.xib */; };
+		60B4BC621DC1E5A800E04B89 /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B4BC5E1DC1E5A800E04B89 /* hdar_close.png */; };
+		60B4BC631DC1E5A800E04B89 /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B4BC5F1DC1E5A800E04B89 /* hdar_close@2x.png */; };
+		60B4BC641DC1E5A800E04B89 /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B4BC601DC1E5A800E04B89 /* hdar_close@3x.png */; };
+		60B4BC661DC1E5C500E04B89 /* TestAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BC651DC1E5C500E04B89 /* TestAnnotationView.swift */; };
+		60B4BC681DC1E60900E04B89 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B4BC671DC1E60900E04B89 /* CoreLocation.framework */; };
+		60B4BC6A1DC1E61200E04B89 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B4BC691DC1E61200E04B89 /* CoreMotion.framework */; };
+		60B4BC6C1DC1E61B00E04B89 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B4BC6B1DC1E61B00E04B89 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +87,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		607F50001DBB926A00736D8B /* AcercaDeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcercaDeViewController.swift; sourceTree = "<group>"; };
+		607F50021DBB929700736D8B /* EventosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventosViewController.swift; sourceTree = "<group>"; };
 		608663FE1DA9FF8C00B05D90 /* Proyecto Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proyecto Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		608664011DA9FF8C00B05D90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		608664031DA9FF8C00B05D90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +112,21 @@
 		60A669551DAB5D9700AB0E80 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		60A669571DAB5D9700AB0E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60A669591DAB5D9700AB0E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B4BC4C1DC1D16F00E04B89 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		60B4BC4F1DC1E57000E04B89 /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
+		60B4BC501DC1E57000E04B89 /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
+		60B4BC511DC1E57000E04B89 /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
+		60B4BC521DC1E57000E04B89 /* ARTrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTrackingManager.swift; sourceTree = "<group>"; };
+		60B4BC531DC1E57000E04B89 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		60B4BC5A1DC1E58800E04B89 /* DebugMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapViewController.swift; sourceTree = "<group>"; };
+		60B4BC5D1DC1E5A800E04B89 /* DebugMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugMapViewController.xib; sourceTree = "<group>"; };
+		60B4BC5E1DC1E5A800E04B89 /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
+		60B4BC5F1DC1E5A800E04B89 /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
+		60B4BC601DC1E5A800E04B89 /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
+		60B4BC651DC1E5C500E04B89 /* TestAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAnnotationView.swift; sourceTree = "<group>"; };
+		60B4BC671DC1E60900E04B89 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		60B4BC691DC1E61200E04B89 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		60B4BC6B1DC1E61B00E04B89 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +134,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B4BC6C1DC1E61B00E04B89 /* MapKit.framework in Frameworks */,
+				60B4BC6A1DC1E61200E04B89 /* CoreMotion.framework in Frameworks */,
+				60B4BC681DC1E60900E04B89 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +153,9 @@
 		608663F51DA9FF8B00B05D90 = {
 			isa = PBXGroup;
 			children = (
+				60B4BC6B1DC1E61B00E04B89 /* MapKit.framework */,
+				60B4BC691DC1E61200E04B89 /* CoreMotion.framework */,
+				60B4BC671DC1E60900E04B89 /* CoreLocation.framework */,
 				608664001DA9FF8C00B05D90 /* Proyecto Final */,
 				60A6693F1DAB5D9700AB0E80 /* rutaWatch */,
 				60A6694E1DAB5D9700AB0E80 /* rutaWatch Extension */,
@@ -136,7 +176,10 @@
 		608664001DA9FF8C00B05D90 /* Proyecto Final */ = {
 			isa = PBXGroup;
 			children = (
+				60B4BC5C1DC1E59B00E04B89 /* Resources */,
+				60B4BC4E1DC1E52A00E04B89 /* Classes */,
 				608664011DA9FF8C00B05D90 /* AppDelegate.swift */,
+				60B4BC651DC1E5C500E04B89 /* TestAnnotationView.swift */,
 				608664031DA9FF8C00B05D90 /* ViewController.swift */,
 				608664051DA9FF8C00B05D90 /* Main.storyboard */,
 				60A6693A1DAB36EA00AB0E80 /* LocationSearchTableTableViewController.swift */,
@@ -147,6 +190,9 @@
 				608664161DAA02A000B05D90 /* QRViewController.swift */,
 				608664181DAA02FA00B05D90 /* RutasViewController.swift */,
 				6086641A1DAA058100B05D90 /* DetalleQRViewController.swift */,
+				607F50001DBB926A00736D8B /* AcercaDeViewController.swift */,
+				607F50021DBB929700736D8B /* EventosViewController.swift */,
+				60B4BC4C1DC1D16F00E04B89 /* TableViewController.swift */,
 			);
 			path = "Proyecto Final";
 			sourceTree = "<group>";
@@ -180,6 +226,38 @@
 				60A669501DAB5D9700AB0E80 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60B4BC4E1DC1E52A00E04B89 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60B4BC591DC1E57C00E04B89 /* Debug */,
+				60B4BC4F1DC1E57000E04B89 /* ARAnnotation.swift */,
+				60B4BC501DC1E57000E04B89 /* ARAnnotationView.swift */,
+				60B4BC511DC1E57000E04B89 /* ARConfiguration.swift */,
+				60B4BC521DC1E57000E04B89 /* ARTrackingManager.swift */,
+				60B4BC531DC1E57000E04B89 /* ARViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		60B4BC591DC1E57C00E04B89 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				60B4BC5A1DC1E58800E04B89 /* DebugMapViewController.swift */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		60B4BC5C1DC1E59B00E04B89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60B4BC5D1DC1E5A800E04B89 /* DebugMapViewController.xib */,
+				60B4BC5E1DC1E5A800E04B89 /* hdar_close.png */,
+				60B4BC5F1DC1E5A800E04B89 /* hdar_close@2x.png */,
+				60B4BC601DC1E5A800E04B89 /* hdar_close@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,8 +363,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6086640F1DA9FF8C00B05D90 /* LaunchScreen.storyboard in Resources */,
+				60B4BC621DC1E5A800E04B89 /* hdar_close.png in Resources */,
+				60B4BC641DC1E5A800E04B89 /* hdar_close@3x.png in Resources */,
 				6086640C1DA9FF8C00B05D90 /* Assets.xcassets in Resources */,
 				608664071DA9FF8C00B05D90 /* Main.storyboard in Resources */,
+				60B4BC631DC1E5A800E04B89 /* hdar_close@2x.png in Resources */,
+				60B4BC611DC1E5A800E04B89 /* DebugMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,11 +397,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				608664041DA9FF8C00B05D90 /* ViewController.swift in Sources */,
+				60B4BC541DC1E57000E04B89 /* ARAnnotation.swift in Sources */,
+				607F50031DBB929700736D8B /* EventosViewController.swift in Sources */,
+				60B4BC561DC1E57000E04B89 /* ARConfiguration.swift in Sources */,
 				6086641B1DAA058100B05D90 /* DetalleQRViewController.swift in Sources */,
+				60B4BC4D1DC1D16F00E04B89 /* TableViewController.swift in Sources */,
 				6086640A1DA9FF8C00B05D90 /* Proyecto_Final.xcdatamodeld in Sources */,
 				60A6693B1DAB36EA00AB0E80 /* LocationSearchTableTableViewController.swift in Sources */,
 				608664021DA9FF8C00B05D90 /* AppDelegate.swift in Sources */,
+				60B4BC581DC1E57000E04B89 /* ARViewController.swift in Sources */,
 				608664171DAA02A000B05D90 /* QRViewController.swift in Sources */,
+				60B4BC661DC1E5C500E04B89 /* TestAnnotationView.swift in Sources */,
+				60B4BC5B1DC1E58800E04B89 /* DebugMapViewController.swift in Sources */,
+				607F50011DBB926A00736D8B /* AcercaDeViewController.swift in Sources */,
+				60B4BC571DC1E57000E04B89 /* ARTrackingManager.swift in Sources */,
+				60B4BC551DC1E57000E04B89 /* ARAnnotationView.swift in Sources */,
 				608664191DAA02FA00B05D90 /* RutasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -570,6 +662,7 @@
 				60A6695F1DAB5D9700AB0E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60A669611DAB5D9700AB0E80 /* Build configuration list for PBXNativeTarget "rutaWatch" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +671,7 @@
 				60A669631DAB5D9700AB0E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
